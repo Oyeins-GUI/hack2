@@ -1,0 +1,51 @@
+#V2
+(contract-call? .initialize-program execute tx-sender)
+(contract-call? .initialize-program execute 'STNHKEPYEPJ8ET55ZZ0M5A34J0R3N5FM2CMMMAZ6)
+(contract-call? .initialize-program execute .core)
+tx-sender
+tx_sender
+(contract-call? .core set-extension tx-sender true)
+(contract-call? .core set-extension .core true)
+(as-contract tx-sender)
+(contract-call? .core set-extension 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core true)
+::reload
+tx-sender
+(as-contract tx-sender)
+(is-eq tx-sender (as-contract tx-sender))
+(contract-call? set-extension tx-sender true)
+(contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core set-extension tx-sender true)
+::reload
+(contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core test)
+::reload
+(contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core test)
+(as-contract (contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core test))
+(as-contract (contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core set-extension tx-sender true))
+(as-contract (contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core set-extension .core true))
+::reload
+(contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core set-extension tx-sender true)
+(contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core set-extension .membership-token true)
+(contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core set-extension .core true)
+::reload
+(contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core test)
+(as-contract (contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core test))
+::reload
+(as-contract (contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core test))
+(as-contract (contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core test .core))
+(contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core test .core)
+(contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core test .membership-token)
+::reload
+(contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core test .core)
+(contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core set-extension (as-contract .core) true)
+(contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core set-extension (as-contract 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core) true)
+(contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core set-extension (as-contract tx-sender) true)
+(contract-call? .initialize-program create-proposal "just testing" u"still just testing out" .membership-token)
+(as-contract (contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core set-extension (as-contract tx-sender) true))
+(as-contract (contract-call? 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.core set-extension tx-sender true))
+(as-contract tx-sender)
+contract-caller
+(contract-call? .initialize-program execute .core)
+(contract-call? .initialize-program execute tx-sender)
+::reload
+(contract-call? .core tx-sender true)
+(contract-call? .core set-extension tx-sender true)
+(contract-call? .initialize-program execute tx-sender)
